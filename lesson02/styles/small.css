@@ -1,0 +1,27 @@
+@media screen and (max-width: 500px) {
+
+    body 
+    {
+        grid-template-columns: auto;
+        margin: 0;
+    }
+    header {
+        width: 100%;
+    }
+    main 
+    {
+        grid-template-columns: 1fr;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    section 
+    {
+        align-self: center;
+        justify-self: center;
+        margin: 1rem;
+    }
+    
+    
+}

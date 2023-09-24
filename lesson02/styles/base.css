@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display : grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr;
+    font-family: 'Mooli', sans-serif;
+    margin: 1rem;
+   
+
+}
+
+header {
+    grid-column: 1/2;
+    background-color: rgb(209, 209, 142);
+    margin: 1rem;   
+    width: 100%; 
+    justify-self: center;
+}
+
+header h1, h2 
+{
+text-align: center;
+padding: .5rem;
+}
+
+main 
+{
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 1fr;
+    width: 100%;
+    row-gap: 0.2rem;
+  
+    
+}
+
+section {
+    grid-template-rows: 1fr;
+    border : 1px solid gray;
+    background-color: rgb(233, 241, 241);
+    margin : 1rem;
+    border-radius: 12px;
+    
+}
+
+h3 {
+    background-color: rgb(209, 209, 142);
+    color: black;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+nav, p {
+    padding: 0;
+    margin: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+img 
+{
+    width: 94%;
+    margin-left: 3%;
+}
+
+.class 
+{
+    text-align: justify;
+    margin: .2rem;
+}
+
+footer
+{
+    grid-column: 1/2;
+    background-color: rgb(209, 209, 142);
+    width: 100%;
+    justify-self: center;
+}
+
+footer p 
+{
+    text-align: center;
+}

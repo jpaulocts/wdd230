@@ -1,4 +1,3 @@
-
 const options = {year: 'numeric'}
 document.querySelector('#year').textContent = new Date().toLocaleDateString('pt-BR', options);
 
