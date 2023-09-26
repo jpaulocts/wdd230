@@ -99,11 +99,20 @@ h3 {
     
 }
 
+ol {
+    list-style: numeric;
+    margin-left: 2rem;
+   
+}
+
 li {
     display: flex;
     gap : 1%;
     padding: 1rem;
-    list-style-type: none;
+    display: list-item;
+   
+    
+    
 }
 
 
