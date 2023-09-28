@@ -203,11 +203,10 @@ footer img {
 
 }
 
-.active 
+nav a.active 
 {
-    color: yellow;
-    border-left: 1px solid yellow;
-    border-right: 1px solid yellow;
+    color:#ff0000;
+    font-weight: bold;;
 }
 
 iframe 

@@ -14,8 +14,15 @@ hamButton.addEventListener('click', () => {
 
 });
 
-document.querySelectorAll('.navigation').forEach(link => {
-    if(link.href === window.location.pathname) {
-        link.classList.add('active');
+
+const currentPageURL = window.location.href;
+
+const navLinks = document.querySelectorAll('nav a');
+
+for(var i=0; i< navLinks.length; i++) 
+{
+    if(navLinks[i].href === currentPageURL)
+    {
+        navLinks[i].classList.add('active');
     }
-} )
+}
