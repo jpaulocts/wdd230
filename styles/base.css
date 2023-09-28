@@ -205,16 +205,18 @@ footer img {
 
 nav a.active 
 {
-    color:#ff0000;
+    color:#df5c58;
     font-weight: bold;;
+    text-decoration:underline;
+    
 }
 
 iframe 
 {
     display : flex;
     width: 100%;
-    grid-column: 1fr;
+    grid-column: 1;
     margin: 1rem;
-    padding: .5rem;
+    padding: 0;
     justify-self: center;
 }
