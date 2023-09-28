@@ -22,6 +22,7 @@ header {
     padding: 1rem;
     justify-content: center;
     grid-row: 1 / 2;
+    position: relative;
     
     
 
@@ -63,6 +64,7 @@ main {
     grid-template-rows: auto 2fr 1fr;
     grid-template-columns: 1fr;
     justify-self: center;
+    margin: 1rem;
    
 }
 
@@ -137,3 +139,67 @@ footer img {
 
     margin: 1rem;
 }
+
+#menu{
+    display: flex;
+    font-size: 1.5rem;
+    color:white; 
+    background: transparent; 
+    position: absolute;
+    padding: 1rem 1rem 1rem;
+    margin: .5rem;
+    right: .5rem;
+    top: 0rem;
+    text-decoration: none;
+
+
+
+}  
+
+#menu::before 
+{
+    
+    content: "☰";
+   
+    
+}
+
+#menu.open::before
+{
+    content: "X";
+   
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation li a 
+{
+    display: block;
+    padding : 1rem;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.open li 
+{
+    display: block;
+    width: 100%;
+    padding: 0;
+}
+
+.open li a 
+{
+    display: block;
+
+}
+
+.active 
+{
+    color: yellow;
+    border-left: 1px solid yellow;
+    border-right: 1px solid yellow;
+}
+
