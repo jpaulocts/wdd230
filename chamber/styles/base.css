@@ -65,7 +65,7 @@ p
     background-color: var(--accent-color-2);
     display: inline-block;
     padding: 1rem;
-    grid-template-columns: 1/2;
+  
           
     
 }
@@ -339,7 +339,7 @@ footer
 
 nav a:hover 
 {
-    font-size: 120%;
+    
     text-decoration: underline;
     text-decoration-color: var(--primary-color);
     
