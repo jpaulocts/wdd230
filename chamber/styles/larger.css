@@ -1,4 +1,4 @@
-@media screen and (min-width: 700px) 
+@media screen and (min-width: 1000px) 
 {
     
     #menu 
@@ -21,7 +21,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-               
+                       
     }
 
 
@@ -34,17 +34,13 @@
     {
         display: flex;
         color: black;
+        
     }
 
 
-    .navigation a 
+     h1 
     {
-        color:black;
-    }
-
-    h1 
-    {
-        font-size: 400%;
+        font-size: 300%;
     }
 
     button 
@@ -103,8 +99,21 @@
     nav a 
     {
         text-decoration: none;
-        color: var(--accent-color-2);
         font-weight: bold;
         font-family: var(--accent-font);
         font-size: 150%;
+        color: black;
+        
     }
+
+
+    button 
+    {
+        top: 25rem;
+    }
+
+    active 
+{
+    color: var(--primary-color);
+}
+}
