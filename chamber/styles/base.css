@@ -44,7 +44,7 @@ header
 p
 {
     font-family: var(--paragraph-font);
-    font-size:  clamp(1rem, 2.5vw, 2rem) ;
+    font-size:  clamp(1rem, 1vw, 2rem) ;
     padding: 1rem;
 }
 .social-media 
@@ -101,7 +101,7 @@ nav a
 h1, h2, h3, h4 
 {
     font-family: var(--heading-font);
-    font-size: clamp(1rem, 2.5vw, 2rem) ;
+    font-size: clamp(1rem, 1vw, 2rem) ;
     
      
    
