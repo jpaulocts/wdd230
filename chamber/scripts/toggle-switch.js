@@ -13,7 +13,7 @@ buttonMode.addEventListener("click", () => {
 
      main.style.background = "#FFFFFF";
      main.style.color = "#000000";
-     document.querySelector("#textmode").innerText ="Normal";
+     document.querySelector("#textmode").innerText ="Light";
        
      
      
