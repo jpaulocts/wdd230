@@ -14,7 +14,8 @@ button.addEventListener('click', () => {if (input.value != '') {
         list.removeChild(li);
         input.focus();
         
-}); input.value = '';; 
+}); 
+    input.value = '';; 
 } else { 
     input.focus();
 }});
