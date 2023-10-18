@@ -17,6 +17,9 @@ button.addEventListener('click', () => {if (input.value != '' && /\d/.test(input
 }); 
     input.value = ''; 
 }  else { 
+    input.value = '';
     input.focus();
+    alert("Invalid entry. Type a Book and Chapter!")
+
 }});
 
