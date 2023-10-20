@@ -116,4 +116,17 @@
 {
     color: var(--primary-color);
 }
+
+#mode 
+{
+  position: absolute;
+  top: .4rem;
+  right: 7rem;
+  
+}
+
+nav 
+{
+    background: white;
+}
 }
