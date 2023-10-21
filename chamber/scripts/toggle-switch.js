@@ -4,6 +4,9 @@ const header = document.querySelector(".header");
 const menu = document.querySelector("#menu");
 const nav = document.querySelector("nav");
 const a = document.querySelectorAll(".inactive");
+const width= 1000;
+
+
 
 buttonMode.addEventListener("click", () => {
     if (document.querySelector("#checkbox").checked) {
@@ -11,14 +14,12 @@ buttonMode.addEventListener("click", () => {
      main.style.color = "#FFFFFF";
      header.style.background = "#14213D";
      menu.style.color = "#FFFFFF";
-     nav.style.background = "#14213D";
      for (let i=0; i< a.length; i++) 
      {
       a[i].style.color = "#FFFFFF";
      }
      
-     
-          
+             
          
   } else {
 
@@ -26,14 +27,19 @@ buttonMode.addEventListener("click", () => {
      main.style.color = "#000000";
      header.style.background = "#FFFFFF";
      menu.style.color = "#000000";
-     nav.style.background = "#FFFFFF"
-     for (let i=0; i< a.length; i++) 
-     {
-      a[i].style.color = "#000000";
-     }
-     
 
+     if (screen.width >= width) 
+     {
+      for (let i = 0; i< a.length; i++) {
+         a[i].style.color = "unset";
+
+     } } else if (screen.width < width ) {
+      
+         for (let i = 0; i< a.length; i++) {
+            a[i].style.color = "#unset"
+         }
+      }
      
      
-  }
-});
+     
+}});

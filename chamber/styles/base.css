@@ -39,6 +39,7 @@ header
     background-color: var(--accent-color-2r);
     width: 100%;
     
+    
 }
 
 p
@@ -63,7 +64,8 @@ p
 .header 
 {
     background-color: var(--accent-color-2);
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     padding: 1rem;
     
   
@@ -276,8 +278,9 @@ footer
 
 .navigation 
 {
-    background: var(--secondary-color);
+    
     width: 100%;
+    
 }
 
 
@@ -439,4 +442,8 @@ nav a:hover
   .navigation.open {
 
     background: #14213D;
+    color: #E5E5E5;
+
   }
+
+  
