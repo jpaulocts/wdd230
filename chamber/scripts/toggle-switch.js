@@ -4,7 +4,7 @@ const header = document.querySelector(".header");
 const menu = document.querySelector("#menu");
 const nav = document.querySelector("nav");
 const a = document.querySelectorAll(".inactive");
-const width= 1000;
+const width= 640;
 
 
 

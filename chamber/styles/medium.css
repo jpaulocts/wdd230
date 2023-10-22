@@ -1,7 +1,71 @@
-@media screen and (min-width: 500px) and (max-width: 900px) {
+@media screen and (min-width: 640px) and (max-width: 999px) {
 
-    .headeline 
+    .navigation 
     {
-        font-size: 200%;
+        
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0rem;    
+        
+                       
+    }
+
+    #menu 
+    {
+        display: none;
+    }
+
+    header
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr;
+    }
+
+    .navigation ul 
+    {
+        display: flex;
+    }
+
+    .navigation li 
+    {
+        display: flex;
+        color: black;
+        
+    }
+
+    li a 
+    {
+        color: black;
+    }
+
+    .header {
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .current-events
+    {
+        grid-template-columns: 1fr 1fr 1fr  ;
+        grid-template-rows: auto 1fr;
+        row-gap: .5rem;
+        text-align: center;
+    }
+
+    .current-events h2 
+    {
+        grid-row: 1/2;
+        grid-column: 1/4;
+    }
+
+    .current-events div
+    {
+
+        grid-row: 2/3;
     }
 }

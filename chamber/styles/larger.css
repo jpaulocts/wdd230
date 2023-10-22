@@ -1,6 +1,22 @@
 @media screen and (min-width: 1000px) 
 {
     
+    header, main, footer {
+        max-width: 1900px;
+        width: 100%;
+        
+    }
+    
+    body 
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;       
+        position: relative;   
+        
+    }
+
     #menu 
     {
         display: none;
@@ -9,19 +25,29 @@
     header
     {
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 2fr;
+        justify-self: center;
+        position: relative;
+        
+    }
+
+    .header 
+    {
+        grid-column: 1/4;
+        margin-right: 0rem;
+        position: relative;
+        
     }
 
     
     .navigation 
     {
         
-        width: 100%;
+        width: 80%;
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        margin-right: 4rem;
+        margin: 0;
+        
         
         
         
@@ -58,6 +84,11 @@
         width: 20%;
     }
 
+    main 
+    {
+        
+        justify-self: center;
+    }
     .current-events
     {
         grid-template-columns: 1fr 1fr 1fr  ;
@@ -140,6 +171,12 @@
     display: flex;
     flex-direction: row;
     background: white;
+}
+
+footer 
+{
+    
+    justify-self: center;
 }
 
 
