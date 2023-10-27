@@ -87,6 +87,8 @@ h2
     border-radius: 12px;
     
     
+    
+    
 }
 
 
@@ -256,4 +258,12 @@ iframe
     padding: .25rem;
     font-size: clamp(1rem, 2vw, 4rem);
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.label 
+{
+    margin-top: 1rem;
+    margin-left: 10%;
+    
+
 }
