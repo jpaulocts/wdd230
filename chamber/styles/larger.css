@@ -260,4 +260,36 @@ figcaption
     border-radius: 150px 15px;
 }
 
+#messagepop
+{
+    width: 450px;
+    height: 50px;
+    opacity: 100%;
+    background: white;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    
+}
+
+#closepop
+{
+    margin: 0;
+    padding: .5rem;
+    align-self: center;
+    width: 50px;
+    position: relative;
+    top:0;
+    
+    
+}
+
+.visit-counter {
+
+    justify-self: center;
+}
+
+
 }

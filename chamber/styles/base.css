@@ -536,16 +536,33 @@ figcaption
     height: 50px;
     opacity: 100%;
     background: white;
-    display: grid;
+    display:flex;
+    justify-self: center;
+    align-self: center;
+    text-align: justify;
+    border: 1px solid black;
+    
 }
 
 #closepop
 {
     margin: 0;
     padding: .5rem;
+    justify-self: end;
     align-self: center;
-    margin-right: .5rem;
+    font-size: 100%;
+    position: relative;
     
+    
+}
+
+#visit-counter 
+{
+    align-self: center;
+    justify-self: center;
+    padding: 0;
+    margin: 1rem;
+
     
 }
 
