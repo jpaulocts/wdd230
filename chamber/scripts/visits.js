@@ -4,12 +4,12 @@ const buttonClose = document.querySelector("#closepop");
 const visitCounter = document.querySelector("#visit-counter");
 
 
-let visitsNumber = Number(window.localStorage.getItem("lastvisit")) || 0;
+let visitsNumber = parseInt(window.localStorage.getItem("lastvisit")) || 0;
 
 
 if (visitsNumber == 0) 
 {
-    localStorage.setItem('lastVisit', Date.now());
+    localStorage.setItem('lastVisit', new Date().getTime());
 
     visitCounter.textContent = "Welcome! Let us know if you have any questions."
     showPopup();
@@ -20,7 +20,7 @@ if (visitsNumber == 0)
 
     let dayDifference = (visitsNumber - Date.now()) / msToDays
 
-        if (dayDifference === 0) 
+        if (dayDifference < 1) 
         {
             visitCounter.textContent = "Back so soon! Awesome!";
         } else {
@@ -34,7 +34,6 @@ if (visitsNumber == 0)
 
         
 }
-
 
 function showPopup() 
 {
