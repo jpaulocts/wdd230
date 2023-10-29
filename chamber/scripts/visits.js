@@ -38,7 +38,7 @@ if (visitsNumber == 0)
 
 function showPopup() 
 {
-    visits.style.display = 'block';
+    visits.style.display = 'grid';
 
 
 }
@@ -48,7 +48,7 @@ buttonClose.addEventListener('click', ()=> {
 })
 
 
-
+showPopup();
 
 
 
