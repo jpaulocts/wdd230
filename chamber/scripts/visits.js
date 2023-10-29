@@ -4,7 +4,7 @@ const buttonClose = document.querySelector("#closepop");
 const visitCounter = document.querySelector("#visit-counter");
 
 
-let visitsNumber = parseInt(window.localStorage.getItem("lastvisit")) || 0;
+let visitsNumber = parseInt(window.localStorage.getItem("lastVisit")) || 0;
 
 
 if (visitsNumber == 0) 
