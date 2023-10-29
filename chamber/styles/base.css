@@ -447,4 +447,107 @@ nav a:hover
 
   }
 
+
+.discover-content 
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.sidebar {
+
+    margin-top: 1rem;
+    margin-bottom:0;
+    padding: 20px;
+    display: grid;
+    justify-items: center;
+    
+}
+
+
+.side-bar-one 
+{
+    display: grid;
+    border: 1px solid #fca311;
+    margin-bottom: .5rem;
+    border-radius: 10px;
+}
+
+.side-bar-two 
+{
+    display: grid;
+    border: 1px solid #fca311;
+    border-radius: 10px;
+    
+}
+
+
+.sidebar h3, img
+{
+    justify-self: center;
+    margin-top: .5rem;
+}
+
+
+figure
+{
+    position: relative;
+    display: flex;
+}
+
+figcaption 
+{
+    
+    background: #FCA311;
+    width: 200px;
+    position: absolute;
+    top:1rem;
+}
+
+.photos img {
+
+    width: 380px;
+    margin-top: 1rem;
+}
+
+.visits
+{
+    display: block;
+    padding: 20px;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    position:fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%; 
+    display: grid; 
+    opacity: 100%;
+    top:0;
+
+      
+}
+
+#messagepop
+{
+    width: 300px;
+    height: 50px;
+    opacity: 100%;
+    background: white;
+    display: grid;
+}
+
+#closepop
+{
+    margin: 0;
+    padding: .5rem;
+    align-self: center;
+    margin-right: .5rem;
+    
+    
+}
+
+
   
