@@ -248,7 +248,7 @@ footer
 .photos img 
 {
     border-radius: 15px 150px;
-    width: 500px;
+    width: 100%;
     padding: 0;
 }
 
