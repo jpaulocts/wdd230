@@ -431,7 +431,7 @@ nav a:hover
   {
     position: absolute;
     top: 5.3rem;
-    right: .1rem;
+    right: .8rem;
     
   }
 
@@ -548,6 +548,7 @@ figcaption
     align-self: center;
     text-align: justify;
     border: 1px solid black;
+    font-weight: bold;
     
 }
 
@@ -559,6 +560,7 @@ figcaption
     align-self: center;
     font-size: 100%;
     position: relative;
+    color: #000000;
     
     
 }
