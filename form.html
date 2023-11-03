@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Web development site: tips, notes and research"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://agendadorecife.com.br/wp-content/uploads/2022/10/O-que-fazer-no-Recife-antigo-a-noite.jpg"/>
+    <meta property="og:url" content="https://jpaulocts.github.io/wdd230/"/>
+    <title>Paulo Cauás - WDD 230 - Web Frontend Development</title>
+    <meta name="author" content="Paulo Cauás">
+    <meta name="description" content="My name is Paulo Cauas and that is the course assignment portal of the WDD 230 - Web Frontend Development. Here it will be found many tips to improve your knowledge about web development.">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="images/profile.webp" alt="profile foto" width="96" height="128">
+        <h1>Paulo Cauás</h1>
+        <a id="menu" href="#"></a>
+    </header>
+    <nav class="navigation">     
+        <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="chamber/">Chamber</a></li>
+            <li><a href="https://www.byui.edu" target="_blank">BYU-Idaho</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures/nt/luke/1?lang=eng" target="_blank">Scripture</a></li>
+        </ul>
+    </nav>
+    <main>
+       <form>
+            <label>Username <input type="text" id="name" name="name" required></label>
+            <label>Password <input type="password" id="password" name="password" pattern="[A-Za-z19]{8,}" title="At least eight alpha-numeric characters" required></label>
+            <label>Password Confirmation <input type="password" id="confirmation" name="confirmation" pattern="[A-Za-z0-9]{8,}" title="At least eight alpha-numeric characters" required></label>
+            <label>Email <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" required></label>
+            <label>Page Rating <input type="range" id="range" min="1" max="10" value="0" step="1" required></label>
+            <input type="submit" value="Register Here">
+       </form> 
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> | José Paulo Cauas Tenório | Brazil | All Rights Reserved </p>
+        <img src="images/brazilflag.png.webp" alt="Brazil's flag" width="70" height="50">
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/visits.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+</html>
