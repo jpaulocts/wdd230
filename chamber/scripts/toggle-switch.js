@@ -46,14 +46,16 @@ buttonMode.addEventListener("click", () => {
      if (h1NonHome !== null) {
      h1NonHome.style.color = "#000000";}
 
-
+     
 
      if (caption !== null) {
-         for (let j=0; j < caption.length; j++) {
-            caption[j].style.color = "#000000";
-            caption[j].style.background = "#FCA311" 
-         }
+      for (let j=0; j < caption.length; j++) {
+         caption[j].style.color = "#000000";
+         caption[j].style.background = "#FCA311" 
       }
+   }
+     header.style.background = "unset";
+     menu.style.color = "#000000";
 
      if (screen.width >= width) 
      {
