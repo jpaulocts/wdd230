@@ -18,7 +18,7 @@ if (visitsNumber == 0)
 
     const msToDays = 84600000;
 
-    let dayDifference = (visitsNumber - Date.now()) / msToDays
+    let dayDifference = (Date.now() - visitsNumber) / msToDays
 
         if (dayDifference < 1) 
         {
@@ -27,11 +27,12 @@ if (visitsNumber == 0)
 
             const dayText = dayDifference === 1 ? "day" : "days";
 
-            visitCounter.textContent = `You last visited ${dayDifference} ${dayText} ago.`;
+            visitCounter.textContent = `You last visited ${Math.trunc(dayDifference)} ${dayText} ago.`;
 
         }
 
-
+    
+    localStorage.setItem('lastVisit', new Date().getTime());
         
 }
 

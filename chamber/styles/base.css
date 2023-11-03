@@ -105,6 +105,7 @@ h1, h2, h3, h4
 {
     font-family: var(--heading-font);
     font-size: clamp(1rem, 1vw, 2rem) ;
+    justify-self: center;
     
      
    
@@ -282,6 +283,7 @@ footer
     
     width: 100%;
     
+    
 }
 
 
@@ -320,6 +322,7 @@ footer
 
 .navigation li {
     display: none;
+    transition: 2s;
 }
 
 .navigation li a 
@@ -339,6 +342,7 @@ footer
     width: 100%;
     padding: 0;
     z-index: 1;
+    
     
     
     
@@ -509,7 +513,7 @@ figcaption
 
 .photos img {
 
-    width: 380px;
+    width: 200;
     margin-top: 1rem;
 }
 

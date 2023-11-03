@@ -48,10 +48,6 @@
         align-items: center;
         margin: 0;
         
-        
-        
-        
-        
                        
     }
 
@@ -252,7 +248,7 @@ footer
 .photos img 
 {
     border-radius: 15px 150px;
-    width: 700px;
+    width: 500px;
 }
 
 figcaption 
