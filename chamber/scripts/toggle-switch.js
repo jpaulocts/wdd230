@@ -6,6 +6,7 @@ const nav = document.querySelector("nav");
 const a = document.querySelectorAll(".inactive");
 const active = document.querySelector(".active");
 const h1NonHome = document.querySelector(".head-nohome");
+const caption = document.querySelectorAll("figcaption");
 const width= 640;
 
 
@@ -17,6 +18,14 @@ buttonMode.addEventListener("click", () => {
 
       if (h1NonHome !== null) 
       {     h1NonHome.style.color = "#FFFFFF";}
+
+      if (caption !== null) {
+         for (let j=0; j < caption.length; j++) {
+            caption[j].style.color = "#FFFFFF";
+            caption[j].style.background = "#14213D" 
+         }
+      }
+         
 
      header.style.background = "#14213D";
      menu.style.color = "#FFFFFF";
@@ -33,10 +42,18 @@ buttonMode.addEventListener("click", () => {
 
      main.style.background = "#FFFFFF";
      main.style.color = "#000000";
+
      if (h1NonHome !== null) {
      h1NonHome.style.color = "#000000";}
-     header.style.background = "unset";
-     menu.style.color = "#000000";
+
+
+
+     if (caption !== null) {
+         for (let j=0; j < caption.length; j++) {
+            caption[j].style.color = "#000000";
+            caption[j].style.background = "#FCA311" 
+         }
+      }
 
      if (screen.width >= width) 
      {
