@@ -8,7 +8,7 @@
     --secondary-color: #14213D;
     --accent-color-1 : #000000;
     --accent-color-2 :#FFFFFF;
-
+    
     --heading-font : 'noto serif georgian', 'serif';
     --paragraph-font: 'opens sans', 'serif';
     --accent-font : 'roboto', 'serif';
@@ -367,7 +367,7 @@ nav a:hover
 
 .active 
 {
-    color: var(--primary-color);
+    border: 1px solid #FFFFFF;
 }
 
 /* The switch - the box around the slider */
@@ -431,7 +431,7 @@ nav a:hover
   {
     position: absolute;
     top: 5.3rem;
-    right: .8rem;
+    right: .4rem;
     
   }
 

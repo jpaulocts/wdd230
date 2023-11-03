@@ -4,6 +4,7 @@ const header = document.querySelector(".header");
 const menu = document.querySelector("#menu");
 const nav = document.querySelector("nav");
 const a = document.querySelectorAll(".inactive");
+const active = document.querySelector(".active");
 const h1NonHome = document.querySelector(".head-nohome");
 const width= 640;
 
@@ -13,13 +14,18 @@ buttonMode.addEventListener("click", () => {
     if (document.querySelector("#checkbox").checked) {
      main.style.background = "#000000";
      main.style.color = "#FFFFFF";
-     h1NonHome.style.color = "#FFFFFF";
+
+      if (h1NonHome !== null) 
+      {     h1NonHome.style.color = "#FFFFFF";}
+
      header.style.background = "#14213D";
      menu.style.color = "#FFFFFF";
      for (let i=0; i< a.length; i++) 
      {
       a[i].style.color = "#FFFFFF";
      }
+     active.style.color = "#FFFFFF";
+     active.style.border = "1px solid #FFFFFF";
      
              
          
@@ -27,21 +33,26 @@ buttonMode.addEventListener("click", () => {
 
      main.style.background = "#FFFFFF";
      main.style.color = "#000000";
-     h1NonHome.style.color = "#000000"
-     header.style.background = "#FFFFFF";
+     if (h1NonHome !== null) {
+     h1NonHome.style.color = "#000000";}
+     header.style.background = "unset";
      menu.style.color = "#000000";
 
      if (screen.width >= width) 
      {
       for (let i = 0; i< a.length; i++) {
          a[i].style.color = "unset";
+         active.style.color = "unset";
+         active.style.border = "1px solid #000000"
 
      } } else if (screen.width < width ) {
       
          for (let i = 0; i< a.length; i++) {
             a[i].style.color = "#unset"
+            active.style.border = "1px solid #FFFFFF"
          }
       }
+     ;
      
      
      
