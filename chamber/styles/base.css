@@ -510,6 +510,7 @@ figcaption
     position: absolute;
     top:1rem;
     left: 2%;
+    color: black;
 }
 
 .photos img {
