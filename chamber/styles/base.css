@@ -509,12 +509,15 @@ figcaption
     width: 200px;
     position: absolute;
     top:1rem;
+    left: 2%;
 }
 
 .photos img {
 
     width: 200;
     margin-top: 1rem;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .visits

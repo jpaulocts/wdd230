@@ -249,11 +249,13 @@ footer
 {
     border-radius: 15px 150px;
     width: 500px;
+    padding: 0;
 }
 
 figcaption 
 {
     border-radius: 150px 15px;
+    left: 0;
 }
 
 #messagepop
