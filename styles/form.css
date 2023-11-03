@@ -1,13 +1,23 @@
+:root {
+
+    --primary-color: #445ba9;
+    --required-color: #9c2c13;
+    --accent-font : 'roboto', 'serif';
+
+}
+
+
+
 form fieldset {
     margin : 2rem 1rem;
-    border: 1px solid #445ba9;
+    border: 1px solid var(--primary-color);
     border-radius: 10px;
     padding: .5rem 2%;;
 
 }
 
 form legend {
-    color: #445ba9;
+    color: var(--primary-color);
     margin: 0 1rem;
     padding: 0;
 }
@@ -15,7 +25,7 @@ form legend {
 label {
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
+    color: var(--required-color);
     font-size: .8rem;
 
 }
@@ -33,7 +43,7 @@ form label input {
 
 }
 form label input:required{
-    border-left: red solid 6px;
+    border-left: var(--required-color) solid 6px;
 }
 
 form label input:required:valid {
@@ -51,7 +61,7 @@ form label{
 
 form input.submitBtn {
     border: none;
-    background-color: #9c2c13;
+    background-color: var(--required-color);
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -66,5 +76,6 @@ form div {
     padding-top: 1rem;
     color: navy;
     font-size: 1.5rem;
+    font-family: var(--accent-font);
 
 }
