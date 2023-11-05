@@ -515,7 +515,7 @@ figcaption
 
 .photos img {
 
-    width: 200;
+    width: 100%;
     margin-top: 1rem;
     padding-left: 2%;
     padding-right: 2%;
@@ -576,5 +576,91 @@ figcaption
     
 }
 
+ .join-container {
 
-  
+    display: grid;
+    grid-template-columns: 1;
+ }
+ 
+ .benefit {
+    display: none;
+ }
+
+
+ form{
+
+    display: grid;
+ }
+
+ form fieldset {
+
+    margin : -.5rem 1rem 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    padding: .5rem 2%;
+    
+ }
+
+ form legend {
+    
+    margin: 0 1rem;
+    padding: 0;
+}
+ 
+form label {
+    display: block;
+    padding: .1rem;
+    margin: .5rem;
+    font-weight: bold;
+}
+
+form input {
+    display:block;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: .5rem;
+}
+
+form div {
+
+    display: block;
+    margin-left: .7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    
+}
+
+
+form input.sbs {
+    display: inline;
+}
+
+
+form label input:required{
+    border-left: red solid 6px;
+}
+
+form label input:required:valid {
+    border-left: green solid 6px;
+}
+
+
+.join-button {
+
+    width: 50%;
+    justify-self: center;
+}
+
+.join-button:hover{
+
+    background:#FCA311;
+    font-size: 1rem;
+}
+
+.thank {
+    justify-self: center;
+    grid-column: 1/2;
+    display: inline;
+    justify-content: center;
+}

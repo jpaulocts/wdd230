@@ -68,4 +68,20 @@
 
         grid-row: 2/3;
     }
+
+    
+.active {
+    border: 1px solid #000000;
+}
+
+
+#mode 
+{
+  position: absolute;
+  top: .8rem;
+  right: 7rem;
+
+
+}
+
 }

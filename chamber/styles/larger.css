@@ -216,7 +216,7 @@ footer
 }
 
 
-.side-bar-one h3, .side-bar-two h3, img {
+.side-bar-one h3, .side-bar-two h3,  {
 
     justify-self: center;
     margin-bottom: 1rem;
@@ -239,13 +239,13 @@ footer
     text-align: center;
 }
 
-.photos img:hover
+.photos :hover
 {
     box-shadow: 0 0 50px #333;
     
 }
 
-.photos img 
+.photos  
 {
     border-radius: 15px 150px;
     width: 100%;
@@ -289,5 +289,72 @@ figcaption
     justify-self: center;
 }
 
+
+.join-container {
+
+    display: grid;
+    grid-template-columns: 2;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+ }
+
+ .join-container form {
+
+    grid-column: 1/2;
+}
+
+ 
+ .benefit {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+    
+    
+ }
+
+
+ .benefit div {
+    border:1px solid #fca316;
+    border-radius: 10px;
+    box-shadow: 5px 10px;
+    padding: 1rem;
+    
+    
+ }
+
+ .benefit ul {
+
+    padding: .5rem;
+ }
+
+ .benefit li {
+    list-style:circle;
+    padding: .2rem;
+ }
+
+form {
+
+    padding: 0;
+    margin: 0;
+}
+
+.np , .bronze , .silver , .gold  {
+
+    display: grid;
+    
+
+  
+}
+
+.np img , .bronze img , .silver img , .gold img{
+
+    justify-self: center;
+}
+
+.silver img {
+
+    margin-top: 3rem;
+}
 
 }
