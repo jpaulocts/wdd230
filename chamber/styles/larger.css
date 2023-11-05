@@ -216,7 +216,7 @@ footer
 }
 
 
-.side-bar-one h3, .side-bar-two h3,  {
+.side-bar-one h3, .side-bar-two h3  {
 
     justify-self: center;
     margin-bottom: 1rem;
@@ -293,7 +293,7 @@ figcaption
 .join-container {
 
     display: grid;
-    grid-template-columns: 2;
+    grid-template-columns: 1fr 2fr;
     gap: 1.5rem;
     margin-bottom: 1rem;
  }

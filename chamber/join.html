@@ -49,17 +49,17 @@
                 <form method="get" action="thankyou.html">
                    <fieldset>
                         <legend>Subscription</legend>
-                        <label for="firstname">First Name <input type="text" id="firstname" id="firstname" required></label>
-                        <label for="lastname">Last Name <input type="text" id="lastname" id="lastname" required></label>
-                        <label for="title">Title/Position <input type="text" id="title" id="title"  pattern="[A-Za-z\- ]{7,}" title="At least seven characters" required></label>
-                        <label for="email">Email <input type="email" id="email" id="email" placeholder="example@email.com"></label>
+                        <label for="firstname">First Name <input type="text" id="firstname" required></label>
+                        <label for="lastname">Last Name <input type="text" id="lastname" required></label>
+                        <label for="title">Title/Position <input type="text" id="title" pattern="[A-Za-z\- ]{7,}" title="At least seven characters" required></label>
+                        <label for="email">Email <input type="email" id="email" placeholder="example@email.com"></label>
                         <label for="phone">Mobile phone number <input type="tel" name="phone" id="phone" required></label>
                         <label for="business">Business/organization's name <input type="text" name="business" id="business" required></label>
                         <div>Membership level</div>
-                        <label for="np"><input class="sbs" type="radio" name="membership" value="non-profit"> NP Membership</label>
-                        <label for="bronze"><input class="sbs" type="radio" name="membership" value="bronze"> Bronze Membership</label>
-                        <label for="silver"><input class="sbs" type="radio" name="membership" value="silver"> Silver Membership</label>
-                        <label for="gold"><input class="sbs" type="radio" name="membership" value="gold"> Gold Membership</label>
+                        <label for="np"><input class="sbs" type="radio" id="np" name="membership" value="non-profit"> NP Membership</label>
+                        <label for="bronze"><input class="sbs" type="radio" id="bronze" name="membership" value="bronze"> Bronze Membership</label>
+                        <label for="silver"><input class="sbs" type="radio" id="silver" name="membership" value="silver"> Silver Membership</label>
+                        <label for="gold"><input class="sbs" type="radio" id="gold" name="membership" value="gold"> Gold Membership</label>
                         <label for="description"><textarea name="description" id="description" cols="33" rows="10" placeholder="Describe your business here"></textarea></label>
                    </fieldset>
                    <input type="hidden" name="timeStampID" id="timeStamp"/>
