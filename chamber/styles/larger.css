@@ -294,6 +294,7 @@ figcaption
 
     display: grid;
     grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
     gap: 1.5rem;
     margin-bottom: 1rem;
  }
@@ -301,6 +302,7 @@ figcaption
  .join-container form {
 
     grid-column: 1/2;
+
 }
 
  
@@ -337,6 +339,7 @@ form {
 
     padding: 0;
     margin: 0;
+    grid-row: 1/2;
 }
 
 .np , .bronze , .silver , .gold  {
