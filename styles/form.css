@@ -38,7 +38,7 @@ form label input {
     padding: .75rem;
     color: #555;
     width: 100%;
-    max-width: 20rem;
+    max-width: 30rem;
     background-color: rgba(0, 0, 0, 0.1);
 
 }
@@ -68,6 +68,8 @@ form input.submitBtn {
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
+    justify-self: center;
+    
 }
 
 form div {
@@ -77,5 +79,25 @@ form div {
     color: navy;
     font-size: 1.5rem;
     font-family: var(--accent-font);
+
+}
+
+form {
+
+    grid-column: 1/3;
+    justify-self: center;
+    width:100%;
+    display: grid;
+    width: 600px;
+    
+    
+    
+}
+
+main{
+    
+    display: grid;
+    grid-template-rows: 1fr;
+   
 
 }
