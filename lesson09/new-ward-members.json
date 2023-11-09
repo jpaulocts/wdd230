@@ -1,0 +1,37 @@
+{
+
+    "familyName" : "Green",
+    "movedDate" : "11/02/2017",
+    "recordsNumbers": 4,
+    "visited" : "No",
+    "familyMembers" : [
+        {
+           "name": "Paulo Tenorio",
+            "gender" : "male",
+            "birthdate": "01/04/1991"
+        },
+
+        {
+            "name": "Anne Teixeira",
+            "gender" : "female",
+            "birthdate": "10/15/1994"
+        },
+
+        {
+         
+            "name": "Ariel Mattos",
+            "gender" : "male",
+            "birthdate": "07/25/2022"
+        },
+
+        {
+
+            
+            "name": "Aurora Teixeira",
+            "gender" : "female",
+            "birthdate": "09/25/2022"
+
+        }
+    ]    
+
+}
