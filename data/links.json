@@ -1,7 +1,138 @@
 {
     "lessons": [
         {
-            
+            "lesson": "01",
+            "links" : [
+               {
+                "url": "lesson01/holygrail.hml",
+                "title" : "Holy Layout"
+                
+               },
+
+               {
+
+                "url": "https://codepen.io/Paulo-the-lessful/pen/OJrxMra",
+                "title": "Js Pen"
+
+               }
+            ]
+        },
+
+        {
+            "lesson": "02",
+            "links" : [
+                {
+                    "url": "lesson01/media-query.html",
+                    "title": "Media Queries"
+                },
+
+                {
+                    "url": "lesson02/design-principles.html",
+                    "title": "Design Principles"
+                }
+            ]
+
+        },
+
+        {
+            "lesson": "03",
+            "links": [
+                
+                {
+                    "url": "lesson03/images/Exercise.jpg",
+                    "title" : "CSS Combinators"
+                },
+
+                {
+                    "url": "https://codepen.io/Paulo-the-lessful/pen/dywmqEb",
+                    "title": "Pseudo-elements"
+                },
+
+                {
+                    "url": "https://codepen.io/Paulo-the-lessful/pen/wvRjJzB",
+                    "title": "Responsive Menu"
+                    
+                }
+                
+            ]
+        },
+
+        {
+            "lesson": "04",
+            "links": [
+                {
+                    "url": "https://codepen.io/Paulo-the-lessful/pen/zYymaeR",
+                    "title": "CSS Pseudo-classes"
+                }
+            ]
+        },
+
+        {
+            "lesson": "05",
+            "links": [
+                {
+                    "url": "lesson05/bom.html",
+                    "title": "Favorite Chapters Application"
+                }
+            ]
+        },
+
+        {
+            "lesson": "06",
+            "links": [
+                {
+                    "url": "lesson06/images/landscape.webp",
+                    "title": "WebP"
+                }
+            ]
+        },
+
+        {
+            "lesson": "07",
+            "links": [
+                {
+                    "url":"lesson03/lazyload.html",
+                    "title": "Lazy Loading"
+                },
+
+                {
+                    "url": "lesson07/bom.html",
+                    "title": "BOM Local storage"
+                }
+            ]
+
+        },
+
+        {
+            "lesson": "08",
+            "links": [
+                {
+                    "url": "lesson08/tablebuild.html",
+                    "title": "Table Build"
+                    
+                },
+
+                {
+                    "url": "lesson08/form-start/index.html",
+                    "title": "Form Build"
+                },
+
+                {
+                    "url": "form.html",
+                    "title": "Form assignment"
+                },
+
+                {
+                    "url": "lesson09/new-ward-members.json",
+                    "title": "JSON file"               
+                 },
+
+                 {
+                    "url": "lesson09/prophets.html",
+                    "title": "The Fetch API"
+                 }
+
+            ]
         }
     ]
 }
