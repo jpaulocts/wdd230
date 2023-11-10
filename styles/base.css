@@ -114,9 +114,15 @@ li {
     gap : 1%;
     padding: 1rem;
     display: list-item;
+    text-decoration: none;
    
     
     
+}
+
+ol a:link {
+
+    text-decoration: none;
 }
 
 
