@@ -1,0 +1,47 @@
+
+*{
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+
+    text-align: center;
+    padding: 1rem;
+}
+
+
+#cards {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+}
+
+section {
+
+    margin: 0.25rem;
+    padding: 0.35rem;
+    background-color: rgb(165, 165, 230);
+    border: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:  0 0 30px #777;
+}
+
+section h2 {
+
+    color: rgb(74, 74, 231);
+    font-weight: bold;
+   
+}
+
+footer{
+
+    text-align: center;
+    margin: 1rem;
+}
