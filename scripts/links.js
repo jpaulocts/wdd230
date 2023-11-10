@@ -19,6 +19,10 @@ const displayLinks = (lessons) => {
 
         
         let li = document.createElement("li");
+
+        let week = lesson.lesson;
+
+        li.append(week);
         
         let c = 1
 
@@ -30,7 +34,7 @@ const displayLinks = (lessons) => {
 
                 let a = document.createElement("a");
 
-                a.textContent = `${link.title}`;
+                a.textContent = `. ${link.title}`;
 
                 a.setAttribute("href", link.url);
                 a.setAttribute("target", "_blank");

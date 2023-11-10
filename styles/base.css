@@ -104,8 +104,8 @@ h3 {
 }
 
 ol {
-    list-style: numeric;
-    margin-left: 2rem;
+    list-style: none;
+    margin-left: 0rem;
    
 }
 
