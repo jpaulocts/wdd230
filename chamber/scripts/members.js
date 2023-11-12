@@ -25,6 +25,7 @@ const displayData = (members) => {
        portrait.setAttribute("src", member.image);
        portrait.setAttribute("alt", `Portrait of ${member.company}`);
        portrait.setAttribute("loading", "lazy");
+       portrait.setAttribute("width", "200")
        
 
        paragraph1.textContent = member.address;
