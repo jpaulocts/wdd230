@@ -715,12 +715,15 @@ form textarea {
     margin: 1rem;
 }
 
+.card p:first-child{
+    display: none;
 
+}
 .cards section {
 
         margin: 0.25rem;
         padding: 0.35rem;
-        background-color: rgb(254, 254, 255);
+        
         border: 1px solid #bbb;
         border-radius: 10px;
         display: flex;
@@ -732,4 +735,50 @@ form textarea {
 
 .cards p {
     padding: .2rem;
+}
+
+.view{
+    display: flex;
+    justify-self: center;
+}
+
+#grid-button, #list-button{
+
+    background: #bbb;
+    color: black;
+    position: relative;
+    top:0;
+    width:auto;
+    margin: .5rem;
+    padding: .5rem;
+    font-size: 100%;
+
+}
+
+.list {
+
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #14213D;
+    margin: .5rem;
+    text-align: center;
+}
+
+.list section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit);
+    margin: 0;
+    padding: .25rem;
+}
+
+.list section img {
+    display: none;
+}
+
+.list section:nth-child(even) {
+	background-color: #2196F3;
+}
+
+.list p:first-child{
+    display:inline;
 }
