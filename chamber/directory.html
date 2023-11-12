@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Paulo Cauás">
+    <meta name="description" content="This site meet the subjects and interests for traders in Recife, Pernambuco, Brazil. Events, conferences and lectures and much more.">
+    <meta property="og:title" content="Recife Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://agendadorecife.com.br/wp-content/uploads/2022/10/O-que-fazer-no-Recife-antigo-a-noite.jpg">
+    <meta property="og:url" content="https://jpaulocts.github.io/wdd230/chamber/">
+    <title>Recife's Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="icon" href="favicon-rcc.ico">
+</head>
+<body>
+    <header>
+        <div id="mode">
+            <label for="checkbox" class="switch">
+                <input id="checkbox" type="checkbox" name="checkbox">
+                <span class="slider"></span>
+            </label>
+        </div> 
+        <div class="social-media">
+            <a href="#"><img src="images/icons8-instagram-24.png" alt="insta" width="24" height="24"></a>
+            <a href="#"><img src="images/icons8-facebook-24.png" alt="facebook" width="24" height="24"></a>
+            <a href="#"><img src="images/icons8-twitter-24.png" alt="Twitter" width="24" height="24"></a>
+            <a href="#"><img src="images/icons8-whatsapp-24.png" alt="whatsapp" width="24" height="24"></a>
+        </div>
+        <div class="header"> 
+        <img src="images/chamber-logo-2.webp" alt="Logo image" width="218" height="148">
+        <nav class="navigation">
+            <ul class="nav-links">
+                <li><a class="active" href="#">HOME</a></li>
+                <li><a class="inactive" href="discover.html">DISCOVER</a></li>
+                <li><a class="inactive" href="#">DIRECTORY</a></li>
+                <li><a class="inactive" href="join.html">JOIN</a></li>
+            </ul>
+        </nav>   
+        </div> 
+        <a id="menu" href="#"></a>
+    </header>
+    <main>
+        <section class="main">
+            <div class="headline"><h1>RECIFE CITY CHAMBER OF COMMERCE BOOSTING THE TRADE OF THE BRAZIL</h1></div>
+            <picture>
+            <source media="(min-width: 1000px )" srcset="images/wdd230-org_large.webp">
+            <source media="(min-width: 640px )" srcset="images/wdd230-org_medium.webp">
+            <img id="hero" src="images/wdd230-org_smaller.webp" alt="marco zero square" width="500">
+            </picture>
+            <button onclick="window.location.href='join.html'">Join</button>
+        </section>
+        <section class="current-events">
+            <h2>UPCOMING EVENTS</h2>
+            <div>
+                <img src="images/networking-contacts.webp" alt="networking contact" width="200" height="160">
+                <h4>Build Business Network</h4>
+                <p>Build network is an essential part of running a business. This lecture will approach technics to instroduce yourself and make tha right contacts.</p>
+            </div>
+            <div>
+                <img src="images/women-at-work.webp" alt="women at work" width="200" height="160">
+                <h4>Women At Work</h4>
+                <p>This conference will present well-suceeded women in businesses. These managers are going to share their life story and give tips about how to balance the day to day responsabilites.</p>
+            </div>
+            <div>
+                <img src="images/eco.webp" alt="eco business event" width="200" height="160">
+                <h4>Eco Businesses Opportunities</h4>
+                <p>Do you know that there are many tax breaks by working with eco-friendly products? Our workshop will bring an outlook about local legislation and how to apply them to make more money.</p>
+            </div>
+        </section> 
+        <section class="spotlight">
+            <h2>MEMBER SPOTLIGHTS</h2>
+            <div class="e-commerce">
+                <h4>Lanna Make-up E-commerce</h4>
+                <p>"Making you beautiful in few minutes"</p>
+                <a href="mailto:jpaulocts@gmail.com">lanna@gmail.com</a>
+                <a href="#">+999-9999-9999</a>
+                <a href="#">Web site</a>
+            </div>
+            <div class="shipping">
+                <h4>Master Delivery</h4>
+                <p>"Becoming your nigths more tasty"</p>
+                <a href="mailto:jpaulocts@gmail.com">masterdelivery@gmail.com</a>
+                <a href="#">+999-9999-9999</a>
+                <a href="#">Web site</a>
+            </div>
+            <div class="tech">
+                <h4>Lognet</h4>
+                <p>"Connecting you to world"</p>
+                <a href="mailto:jpaulocts@gmail.com">lognet@gmail.com</a>
+                <a href="#">+999-9999-9999</a>
+                <a href="#">Web site</a>
+            </div>
+            <section class="weather">
+                <h2>WEATHER</h2>
+                <p> Temperature: <span id="temperature">30</span>°F</p>
+                <p> Wind-Speed: <span id="speed">5</span>mph</p>
+                <p> Wind-Chill: <span id="wind-chill"></span>°F</p>
+            </section>
+        </section>     
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> | José Paulo Cauás Tenório | Web Development 230 Project</p>
+        <p>Contact information : Email: jpaulocts@gmail.com | Phone number : +55 (81) 986612645</p>
+        <p>Last update: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/fade-out.js"></script>
+    <script src="scripts/getdates.js"></script> 
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/toggle-switch.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>
