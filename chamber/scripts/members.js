@@ -1,4 +1,4 @@
-const url = "https://github.com/jpaulocts.io/wdd230/chamber/data/members.json";
+const url = "https://jpaulocts.github.io/wdd230/chamber/data/members.json";
 const cards = document.querySelector('.cards');
 
 async function getData() {
@@ -19,6 +19,7 @@ const displayData = (members) => {
        let portrait = document.createElement("img");
        let paragraph1 = document.createElement("p");
        let paragraph2 = document.createElement("p");
+       let paragraph3 = document.createElement("p");
        let link = document.createElement("a");
 
        portrait.setAttribute("src", member.image);
@@ -28,15 +29,17 @@ const displayData = (members) => {
 
        paragraph1.textContent = member.address;
        paragraph2.textContent = member.phone;
+       paragraph3.textContent = member.level;
        link.textContent = member.website
 
-       link.setAttribute("src", member.website);
+       link.setAttribute("href", member.website);
        link.setAttribute("target", "blank_");
 
        
        
        card.appendChild(portrait)
        card.appendChild(paragraph1);
+       card.appendChild(paragraph3);
        card.appendChild(paragraph2);
        card.appendChild(link)
        

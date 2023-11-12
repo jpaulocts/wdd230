@@ -705,3 +705,27 @@ form textarea {
     display: inline;
     justify-content: center;
 }
+
+
+.cards{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .5rem;
+    margin: 1rem;
+}
+
+
+.cards section {
+
+        margin: 0.25rem;
+        padding: 0.35rem;
+        background-color: rgb(254, 254, 255);
+        border: 1px solid #bbb;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow:  0 0 30px #fee4e4;
+    
+}
