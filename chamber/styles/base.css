@@ -766,7 +766,7 @@ form textarea {
 
 .list section {
     display: grid;
-    grid-template-columns: repeat(auto-fit);
+    grid-template-columns: 1fr;
     margin: 0;
     padding: .25rem;
 }
