@@ -6,7 +6,7 @@
                 "address": "241 Visconde Albuquerque Street",
                 "phone": "(81) 3446-2118",
                 "website": "https://www.lognetinfo.com.br",
-                "image": "/images/json_images/lognet.webp",
+                "image": "images/json_images/lognet.webp",
                 "level": "Silver Member",
                 "type" : "Eletronic commerce"
 
@@ -17,7 +17,7 @@
                 "address": "173 Dr. Jose Augusto Street",
                 "phone": "(81) 9484-2418",
                 "website": "https://linktr.ee/browniedaduda_",
-                "image": "/images/json_images/brownie.webp",
+                "image": "images/json_images/brownie.webp",
                 "level": "Bronze Member",
                 "type" : "Sweets commerce"
             },
@@ -27,7 +27,7 @@
                 "address": "484 Conde da Boa Vista Street",
                 "phone": "(81) 2126-0001",
                 "website": "https://www.cea.com.br",
-                "image": "/images/json_images/cea.webp",
+                "image": "images/json_images/cea.webp",
                 "level": "Gold Member",
                 "type" : "Clothes commerce"
             },
@@ -38,7 +38,7 @@
                 "address": "240 São Jorge Street",
                 "phone": " (81) 98181-9540",
                 "website": "https://moinhorecife.com.br",
-                "image": "/images/json_images/moinho.jpg",
+                "image": "images/json_images/moinho.jpg",
                 "level": "Basic Member",
                 "type" : "Immobiliari commerce"
             },
@@ -48,7 +48,7 @@
                 "address": "77 Cais do Apolo Street",
                 "phone": " (81) 3419-6700",
                 "website": "https://www.cesar.school",
-                "image": "/images/json_images/cesarschool.webp",
+                "image": "images/json_images/cesarschool.webp",
                 "level": "Gold Member",
                 "type" : "Techonology"
 
@@ -59,7 +59,7 @@
                 "address": "796 Mascarenhas Street",
                 "phone": " (81) 3428-1643",
                 "website": "http://www.universoequipadora.com.br",
-                "image": "/images/json_images/universo.png",
+                "image": "images/json_images/universo.png",
                 "level": "Silver Member",
                 "type" : "Vehicle acessories"
             },
@@ -69,7 +69,7 @@
                 "address": "777 Padre Carapuceiro Street",
                 "phone": " (81) 3464-6464",
                 "website": "https://www.shoppingrecife.com.br",
-                "image": "/images/json_images/shopping.webp",
+                "image": "images/json_images/shopping.webp",
                 "level": "Gold Member",
                 "type" : "Mall Center"
             }
