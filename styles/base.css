@@ -100,6 +100,8 @@ h3 {
     padding: 1rem;
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
+    width: 100%;
+    
     
 }
 
@@ -271,5 +273,29 @@ iframe
     margin-top: 1rem;
     margin-left: 10%;
     
+    
+    
 
 }
+
+
+.information {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.information img{
+    justify-self: center;
+    align-self: center;
+    width: 50px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.information h3 {
+
+    text-align: left;
+}
+
