@@ -1,5 +1,5 @@
-const temp = parseFloat(document.querySelector("#temperature").textContent);
-const windSpeed = parseFloat(document.querySelector("#speed").textContent);
+const temp = (document.querySelector("#temperature").textContent);
+const windSpeed = (document.querySelector("#speed").textContent);
 
 
 
@@ -13,6 +13,5 @@ if (temp <= 50 || windSpeed > 3)
     document.querySelector("#wind-chill").innerHTML= "N/A";
 }
 
-document.querySelector("#temperature").value = temp;
-document.querySelector("#speed").value = windSpeed;
+
 
