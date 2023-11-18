@@ -17,6 +17,10 @@
     <link rel="icon" href="favicon-rcc.ico">
 </head>
 <body>
+    <div id="banner">
+        <h2>Come to meet us! Wednesday Meeting 7 P.M!</h2>
+        <span id="close">❌</span>
+    </div>
     <header>
         <div id="mode">
             <label for="checkbox" class="switch">
@@ -96,7 +100,9 @@
             </div>
             <section class="weather">
                 <h2>WEATHER</h2>
-                <p> Temperature: <span id="temperature">30</span>°F</p>
+                <p> Temperature: <span id="temperature"></span>°F</p>
+                <p>Weather description: <span id=weather-description></span></span></span></p>
+                <p>Three days temperature forecast: <span id="forecast"></span></p>
                 <p> Wind-Speed: <span id="speed">5</span>mph</p>
                 <p> Wind-Chill: <span id="wind-chill"></span>°F</p>
             </section>
@@ -112,5 +118,7 @@
     <script src="scripts/menu.js"></script>
     <script src="scripts/toggle-switch.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/banner.js"></script>
 </body>
 </html>

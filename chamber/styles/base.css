@@ -39,6 +39,7 @@ header
     flex-direction: column;
     background-color: var(--accent-color-2r);
     width: 100%;
+    position: relative;
     
     
 }
@@ -781,4 +782,30 @@ form textarea {
 
 .list p:first-child{
     display:inline;
+}
+
+#banner {
+
+    display : grid;
+    background:#2196F3;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 50px;
+    position: relative;
+    max-width: 1200px;
+}
+
+#banner span {
+
+ position: absolute;
+ top: 1rem;
+ right: 1rem;
+ color: red;
+ font-weight: bold;
+ cursor: pointer;
+ 
+}
+
+#banner h2 {
+    justify-self: center;
 }
