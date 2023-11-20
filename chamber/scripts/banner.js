@@ -10,7 +10,7 @@ closeSpan.addEventListener("click", () => {
 } )
 
 
-if (weekday == 1 || weekday == 4 || weekday == 5 || weekday == 6){
+if (weekday == 0 || weekday == 4 || weekday == 5 || weekday == 6){
 
     banner.style.display = "none";
 }
