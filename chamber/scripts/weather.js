@@ -2,8 +2,11 @@ const url = "https://api.openweathermap.org/data/2.5/forecast?lat=-8.06&lon=-34.
 const currentTemperature = document.querySelector("#temperature");
 const description = document.querySelector("#weather-description");
 const forecast = document.querySelector("#forecast");
+const firstDay = document.querySelector("#one-day");
+const secondDay  = document.querySelector("#second-day");
 const forecastDate = document.querySelector("#forecast-date");
 const speed = document.querySelector("#speed");
+const imgWeather = document.querySelector("#weather-img");
 
 
 async function getWeather() {
@@ -32,9 +35,24 @@ async function getWeather() {
 
             speed.textContent = data.list[0].wind.speed;
 
-            forecast.textContent = data.list[24].main.temp;
+            firstDay.textContent = data.list[7].main.temp;
+
+            secondDay.textContent = data.list[14].main.temp;
+
+            forecast.textContent = data.list[21].main.temp;
             
-            forecastDate.textContent = data.list[24].dt_txt.slice(0,10);
+            forecastDate.textContent = data.list[21].dt_txt.slice(0,10);
+
+            let weatherImage = document.createElement("img");
+
+            let imageURL = `https://openweathermap.org/img/w/${data.list[0].weather[0].icon}.png`
+
+            weatherImage.setAttribute("src", imageURL);
+
+            weatherImage.setAttribute("alt", "weather icon" );
+
+            imgWeather.append(weatherImage);
+
 
             if (temp <= 50 || windSpeed > 3) 
                 {

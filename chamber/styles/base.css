@@ -160,10 +160,16 @@ main
 
 h1 
 {
-    color: var(--accent-color-1);
+    color: var(--accent-color-2);
     padding: 1rem;
     font-weight: bold;
     
+
+}
+
+.head-nohome {
+
+    color: #000000;
 }
 
 button{
@@ -196,6 +202,7 @@ button{
     border-radius: 5px;
     grid-template-columns: 1fr;
     text-align: center;
+    box-shadow: 0 0 10px #bbb;
 }
 
 .current-events h2 
@@ -229,6 +236,7 @@ button{
     border-radius: 5px;
     border: 1.5px solid var(--primary-color);
     text-align: center;
+    box-shadow: 0 0 10px #bbb;
 }
 
 
@@ -266,7 +274,16 @@ button{
 {
     
     
-    border-left: 1.5px solid var(--primary-color);
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1.5px solid var(--primary-color);
+    box-shadow: 0 0 10px #bbb;
+    font-family: var(--accent-font);
+    font-weight: bold;
+    text-align: center;
 }
 
 
