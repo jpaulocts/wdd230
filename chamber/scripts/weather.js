@@ -23,7 +23,7 @@ async function getWeather() {
 
             let temp = parseFloat(data.list[0].main.temp);
 
-            currentTemperature.textContent = data.list[0].main.temp;
+            currentTemperature.textContent = data.list[0].main.temp.toFixed();
 
             let desc =  data.list[0].weather[0].description;
 
@@ -35,11 +35,11 @@ async function getWeather() {
 
             speed.textContent = data.list[0].wind.speed;
 
-            firstDay.textContent = data.list[7].main.temp;
+            firstDay.textContent = data.list[7].main.temp.toFixed();
 
-            secondDay.textContent = data.list[14].main.temp;
+            secondDay.textContent = data.list[14].main.temp.toFixed();
 
-            forecast.textContent = data.list[21].main.temp;
+            forecast.textContent = data.list[21].main.temp.toFixed();
             
             forecastDate.textContent = data.list[21].dt_txt.slice(0,10);
 
@@ -58,7 +58,7 @@ async function getWeather() {
                 {
                     let t = 35.74 + (0.6215 * temp) - (35.75 * (windSpeed)**0.16) + (0.4275 * temp * (windSpeed**0.16));
 
-                     document.querySelector("#wind-chill").innerHTML = t.toFixed(2);
+                     document.querySelector("#wind-chill").innerHTML = t.toFixed();
                 } else {
 
                     document.querySelector("#wind-chill").innerHTML= "N/A";

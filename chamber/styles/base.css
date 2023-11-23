@@ -127,7 +127,8 @@ main
     display: flex;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
-    align-items: center;   
+    align-items: center; 
+   
   
 } 
 
@@ -144,6 +145,11 @@ main
     height: 100%;
     
 
+}
+
+.main, .current-events, .spotlight, .weather {
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .headline
@@ -247,6 +253,8 @@ button{
     display: block;
     margin: 1rem;
     border: 1.5px solid var(--secondary-color);
+    border-radius: 5px;
+    box-shadow: 0 0 10px #8f8d8d;
 }
 
 
@@ -320,9 +328,8 @@ footer
     position: absolute;
     padding: 1rem 1rem 1rem;
     margin: .5rem;
-    right: .5rem;
     top: 4rem;
-    right: 2rem;
+    right: 3rem;
     text-decoration: none;
 }
 
@@ -370,6 +377,9 @@ footer
 .open li a 
 {
     display: block;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: .2rem;
 
 }
 
