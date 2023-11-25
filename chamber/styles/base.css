@@ -250,31 +250,26 @@ button{
 .spotlight div 
 {
     
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin: 1rem;
     border: 1.5px solid var(--secondary-color);
     border-radius: 5px;
     box-shadow: 0 0 10px #8f8d8d;
+    justify-content: center;
+    align-items: center;
 }
 
+.spotlight a {
 
-.e-commerce::before 
-{
-    content: "💄";
-    
+    text-decoration: none;
+    color: inherit;
 }
 
+.spotlight a:hover{
 
-.shipping::before 
-{
-    content: "🚛";
-    
-}
-
-.tech::before 
-{
-    content: "⌨️";
-    
+    text-decoration: underline;
+    color: #2196F3;
 }
 
 

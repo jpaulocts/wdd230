@@ -51,6 +51,10 @@ async function getWeather() {
 
             weatherImage.setAttribute("alt", "weather icon" );
 
+            weatherImage.setAttribute("width", "50");
+
+            weatherImage.setAttribute("height", "50");
+
             imgWeather.append(weatherImage);
 
 
