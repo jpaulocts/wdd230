@@ -19,7 +19,6 @@ async function getWeather() {
 
             const data = await response.json();
 
-            console.log(data);
 
             let temp = parseFloat(data.list[0].main.temp);
 
