@@ -11,12 +11,18 @@ async function getData() {
 
 getData();
 
-const displayData = (members, div) => {
+const displayData = (members, div) => 
+{
 
     let i = 0
-    div.forEach((section) => {
     
-        if (members[i].level == "Gold Member" || members[i].level == "Silver Member"){
+
+        div.forEach((section) => {
+    
+         while (members[i].level == "Bronze Member" || members[i].level == "Basic Member")
+        { 
+            i++;
+        }
        
             let portrait = document.createElement("img");
             let paragraph1 = document.createElement("p");
@@ -34,7 +40,7 @@ const displayData = (members, div) => {
 
             paragraph1.textContent = members[i].slogan;
             paragraph2.textContent = `Phone Number : ${members[i].phone}`;
-            paragraph3.textContent = members[i].level;
+            paragraph3.textContent = `Membership : ${members[i].level}`;
             paragraph4.textContent = members[i].company
             link.textContent = "Web Site"
 
@@ -51,13 +57,9 @@ const displayData = (members, div) => {
             section.appendChild(link);
 
             i = i + 1;
+        
        
-        } else {
-            i = i + 1
-        }
+    })
 
        
-
-
-    });
-}
+};
