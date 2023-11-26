@@ -8,7 +8,8 @@
                 "website": "https://www.lognetinfo.com.br",
                 "image": "images/json_images/lognet.webp",
                 "level": "Silver Member",
-                "type" : "Eletronic commerce"
+                "type" : "Eletronic commerce",
+                "slogan" : "Placing you on another techonology level"
 
             },
 
@@ -19,7 +20,9 @@
                 "website": "https://linktr.ee/browniedaduda_",
                 "image": "images/json_images/brownie.webp",
                 "level": "Bronze Member",
-                "type" : "Sweets commerce"
+                "type" : "Sweets commerce",
+                "slogan" : "Making sweetly you happy"
+
             },
 
             {
@@ -29,7 +32,9 @@
                 "website": "https://www.cea.com.br",
                 "image": "images/json_images/cea.webp",
                 "level": "Gold Member",
-                "type" : "Clothes commerce"
+                "type" : "Clothes commerce",
+                "slogan" : "Your best fashion option"
+
             },
 
             {
@@ -40,7 +45,9 @@
                 "website": "https://moinhorecife.com.br",
                 "image": "images/json_images/moinho.jpeg",
                 "level": "Basic Member",
-                "type" : "Immobiliari commerce"
+                "type" : "Immobiliari commerce",
+                "slogan" : "Renewing the ancient Recife"
+
             },
 
             {
@@ -50,7 +57,9 @@
                 "website": "https://www.cesar.school",
                 "image": "images/json_images/cesarschool.webp",
                 "level": "Gold Member",
-                "type" : "Techonology"
+                "type" : "Techonology",
+                "slogan" : "Learn how to learn : IT ways"
+
 
             },
 
@@ -61,7 +70,9 @@
                 "website": "http://www.universoequipadora.com.br",
                 "image": "images/json_images/universo.png",
                 "level": "Silver Member",
-                "type" : "Vehicle acessories"
+                "type" : "Vehicle acessories",
+                "slogan" : "Tunning your car"
+
             },
 
             {
@@ -71,7 +82,9 @@
                 "website": "https://www.shoppingrecife.com.br",
                 "image": "images/json_images/shopping.webp",
                 "level": "Gold Member",
-                "type" : "Mall Center"
+                "type" : "Mall Center",
+                "slogan" : "The best place to find anything"
+
             }
             
 
