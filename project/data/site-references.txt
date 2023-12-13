@@ -1,0 +1,9 @@
+og: image : https://yourfriendthenomad.com/wp-content/uploads/2023/03/Cozumel-Mexico-2-1024x732.jpg;
+hero-image : https://vivalatravelista.com/is-cozumel-worth-visiting/;
+jeep 2 doors : https://www.autobytel.com/2017-jeep-wrangler-road-test-and-review
+jeep 4 doors : https://www.desert215superstore.com/inventory/new-2023-jeep-wrangler-rubicon-4x4-sport-utility-1c4hjxfgxpw647820/
+hondfa piooneer : https://www.phillycycle.com/New-Inventory-2023-Honda-Pioneer-1000-6-Deluxe-Crew-Philadelphia-Pennsylvania-14186368
+honda dio : https://freebikereviews.wordpress.com/2012/05/26/honda-dio-dlx/
+honda pcx : https://carmakmotors.com.br/detalhes/8949841/0/honda-pcx-20182018-cinza-r-1650000
+honda metropolitan : https://en.wikipedia.org/wiki/Honda_CHF50
+[20.5083, -86.9458]

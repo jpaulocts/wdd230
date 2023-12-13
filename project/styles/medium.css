@@ -1,0 +1,65 @@
+@media screen and (min-width: 570px) {
+
+
+    header {
+
+        display: grid;
+        align-content: center;
+    }
+
+    header img {
+
+        justify-self: center;
+        display: inline;
+        
+    }
+    
+    nav
+    {
+        
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-right: 0rem;    
+        
+                       
+    }
+
+    #menu 
+    {
+        display: none;
+    }
+
+    nav li {
+
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+   
+    .hero img {
+        width: 100%;
+        opacity: 100%;
+    }
+
+    .hero h1, .hero h2 {
+
+        color: white;
+        padding: 1rem;
+    }
+
+    .hero h2 {
+        display: none;
+    }
+    
+    .hero button {
+
+        margin: 2rem;
+    }
+
+  
+
+}

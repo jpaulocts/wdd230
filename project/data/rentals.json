@@ -1,0 +1,60 @@
+{
+
+   "cars": 
+   [ {
+        "Rental": "Honda Metro Scooter",
+        "Persons": 1,
+        "Reservation 3,5h": "$20",
+        "Reservation full day": "$30",
+        "Walk-In 3,5h": "$25",
+        "Walk-In full day": "$35",
+        "img": "images/scooter_metropolitan.webp"
+        
+    },
+    {
+        "Rental": "Honda Dio Scooter",
+        "Persons": 2,
+        "Reservation 3,5h": "$30",
+        "Reservation full day": "$40",
+        "Walk-In 3,5h": "$35",
+        "Walk-In full day": "$45",
+        "img": "images/honda_dio.webp"
+    },
+    {
+        "Rental": "Honda PCX150 Scooter",
+        "Persons": 2,
+        "Reservation 3,5h": "$40",
+        "Reservation full day": "$50",
+        "Walk-In 3,5h": "$45",
+        "Walk-In full day": "$55",
+        "img": "images/pcx.webp"
+    },
+    {
+        "Rental": "Honda Pioneer ATV",
+        "Persons": 4,
+        "Reservation 3,5h": "$50",
+        "Reservation full day": "$70",
+        "Walk-In 3,5h": "$60",
+        "Walk-In full day": "$80",
+        "img": "images/honda_pioneer.webp"
+    },
+    {
+        "Rental": "Jeep Wrangler – 4 door with a/c",
+        "Persons": 5,
+        "Reservation 3,5h": "$70",
+        "Reservation full day": "$100",
+        "Walk-In 3,5h": "$85",
+        "Walk-In full day": "$125",
+        "img": "images/jeep_four_doors.webp"
+    },
+    {
+        "Rental": "Jeep Wrangler – 2 door",
+        "Persons": 4,
+        "Reservation 3,5h": "$60",
+        "Reservation full day": "$85",
+        "Walk-In 3,5h": "$70",
+        "Walk-In full day": "$90",
+        "img": "images/jeep_two_doors.webp"
+    }
+]
+}

@@ -27,7 +27,7 @@
 
 body 
 {
-    background: var(--accent-color-2or);
+    background: var(--accent-color-2);
     
     
     
@@ -363,9 +363,7 @@ footer
     padding: 0;
     z-index: 1;
     
-    
-    
-    
+      
 
 }
 

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Scooter ans transportations rentals in Cozumel"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://yourfriendthenomad.com/wp-content/uploads/2023/03/Cozumel-Mexico-2-1024x732.jpg"/>
+    <meta property="og:url" content="https://jpaulocts.github.io/wdd230/project"/>
+    <title>Scootopia - Cozumel</title>
+    <meta name="author" content="Paulo Cauás">
+    <meta name="description" content="A website designed for easing the transportation in Cozumel by offering scooters, jeeps and side-by-side ATVs rentals.">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <div id="banner">
+        <p>Today's Max Temperature: <span id="max-temp"></span> °F</p>
+        <span id="close">X</span>
+    </div>
+    <header>
+        <div class="logo">
+            <img src="images/logo.webp" alt="logo image" loading="lazy">
+            <div>Scootopia</div>
+            <div>Rentals</div>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                    <a href="rentals.html">Rentals</a>
+                    <a href="reservations.html">Reservations</a>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <a id="menu" href="#"></a>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>SCOOTER TOURS AND RENTALS IN COZUMEL</h1>
+            <h2>Scootopia Rentals focuses on the safety and enjoyment while offering a complete tour experience</h2>
+            <button class="call-to-action">BOOK TODAY</button>
+            <picture>
+                <source media="(min-width:800px)" srcset="images/cozumel.webp">
+                <source media="(min-width: 500px)" srcset="images/cozumel_medium.webp">
+                <img src="images/cozumel_smaller.webp" alt="hero image of Cozumel" width="450" loading="lazy">
+            </picture>
+        </section>
+        <section class="products">
+            <h2 id="title-products">TYPE OF RENTALS</h2>
+            <div class="slideshow">
+                <h2>Scooters</h2>
+                <div class="mySlides1">
+                    <figure>
+                        <img src="images/scooter_metropolitan.webp" alt="honda metropolitan" width="350" height="263" loading="lazy">
+                        <figcaption>Honda Metropolitan (49cc) - 1 person</figcaption>
+                    </figure>
+                </div>
+                <div class="mySlides1">
+                    <figure>
+                        <img src="images/honda_dio.webp" alt="honda dio" width="350" height="263" loading="lazy">
+                        <figcaption>Honda Dio (110cc) - 2 person</figcaption>
+                    </figure>
+                </div>
+                <div class="mySlides1">
+                    <figure>
+                        <img src="images/pcx.webp" alt="honda pcs" width="350" height="263" loading="lazy">
+                        <figcaption>Honda PCX (149cc) - 2 person</figcaption>
+                    </figure>
+                </div>
+                <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+            </div>
+            <div class="slideshow">
+                <h2>ATV</h2>
+                <div >
+                    <figure>
+                        <img src="images/honda_pioneer.webp" alt="honda pioneer atv" width="350" height="263" loading="lazy">
+                        <figcaption>Honda Pioeer 1000 - 4 person</figcaption>
+                        </figure>
+                </div>
+            </div>
+            <div class="slideshow">
+                <h2>Jeeps</h2>
+                <div class="mySlides2">
+                    <figure>
+                        <img src="images/jeep_four_doors.webp" alt="jeep wrangler 4 door" width="350" height="263" loading="lazy">
+                        <figcaption>Jeep Wrangler - 4 door manual A/C - 5 person</figcaption>
+                    </figure>
+                </div>
+                <div class="mySlides2">
+                    <figure>
+                        <img src="images/jeep_two_doors.jpg" alt="jeep wrangler 2 door" width="350" height="263" loading="lazy">
+                        <figcaption>Jeep Wrangler - 2 door - open air manual - 4 person</figcaption>
+                    </figure>
+                </div>
+                <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+            </div>
+        </section>
+        <section class="weather">
+            <h2>WEATHER AND FORECASTING</h2>
+            <div class="current-weather">
+                <div id="weather-img"></div>
+                <p> Weather description: <span id=weather-description></span></p>
+                <p> Current Temperature: <span id="temperature"></span> °F</p>
+                <p> Current humidity: <span id="humidity"></span> %</p>
+                <p> Wind-Speed: <span id="speed"></span> mph</p>
+                <p>Next's Day Forecast: <span id="one-day"></span> °F</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="address">
+            <h4>Addresses</h4>
+            <p>Calle 2 Nte 100, Centro, 77600 Cozumel, Q.R., México</p>
+            <p>Terminal Puerta Maya</p>
+        </div>
+        <div class="phone">
+            <h4>Phone</h4>
+            <p>+55 81 98661-2645</p>
+        </div>
+        <div class="footer-logo">
+            <img src="images/logo.webp" alt="logo">
+        </div>
+        <div class="email">
+            <h4>Email</h4>
+            <p>jpaulocts@gmail.com</p>
+        </div>
+        <div class="connect">
+            <h4>Connect</h4>
+            <div class="social-media">
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.webp" alt="facebook"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.webp" alt="instagram"></a>
+                <a href="https://web.whatsapp.com" target="_blank"><img src="images/whatsapp.webp" alt="whatsapp"></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; <span id="year"></span> | José Paulo Cauás Tenório | Web Development 230 Project</p>
+            <p>Date: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/slide.js"></script>
+    <script src="scripts/date.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/banner.js"></script>
+</body>
+</html>
