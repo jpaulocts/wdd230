@@ -116,4 +116,9 @@
         margin: 3.5%;
     }
         
+
+    .join-button.contact {
+
+        height: 70%;
+    }
 }

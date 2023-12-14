@@ -353,7 +353,7 @@ section {
     align-items: center;
     justify-items: center;
     text-align: center;
-
+    width: 100%;
     
     
   }
@@ -658,4 +658,9 @@ form textarea {
     font-size: 100%;
     display: block;
     padding: .5rem;
+}
+
+.join-button.contact {
+
+    height: 100%;
 }
