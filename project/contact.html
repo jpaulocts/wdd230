@@ -7,7 +7,7 @@
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://yourfriendthenomad.com/wp-content/uploads/2023/03/Cozumel-Mexico-2-1024x732.jpg"/>
     <meta property="og:url" content="https://jpaulocts.github.io/wdd230/project"/>
-    <title>Scootopia - Rental Prices</title>
+    <title>Scootopia - Cozumel</title>
     <meta name="author" content="Paulo Cauás">
     <meta name="description" content="A website designed for easing the transportation in Cozumel by offering scooters, jeeps and side-by-side ATVs rentals.">
     <link rel="stylesheet" href="styles/normalize.css">
@@ -27,79 +27,42 @@
             <ul>
                 <li>
                     <a href="index.html">Home</a>
-                    <a href="rentals.html" class="active">Rentals</a>
+                    <a href="rentals.html">Rentals</a>
                     <a href="reservation.html">Reservations</a>
-                    <a href="contact.html">Contact</a>
+                    <a href="contact.html" class="active">Contact</a>
                 </li>
             </ul>
         </nav>
         <a id="menu" href="#"></a>
     </header>
     <main>
-        <h1>RENTAL PRICING</h1>
-        <section class="rental">
+        <h1 class="head-nohome">TELLS US YOUR DOUBT</h1>
+        <section class="form-container">
+            <form method="get" action="thankyou.html">
+               <fieldset>
+                    <legend>Contact us</legend>
+                    <label for="firstname">First Name <input type="text" id="firstname" required></label>
+                    <label for="lastname">Last Name <input type="text" id="lastname" required></label>
+                    <label for="title">Cruise Line (if applicable) <input type="text" id="title"></label>
+                    <label for="email">Email <input type="email" id="email" placeholder="example@email.com"></label>
+                    <label for="description"><textarea name="description" id="description" cols="33" rows="10" placeholder="Type here your message"></textarea></label>
+               </fieldset>
+               <input type="hidden" name="timeStampID" id="timeStamp"/>
+               <input type="submit" value="SEND" class="join-button">
+            </form>
+            <div class="benefit">
+                <h2>Contact Information</h2>
+                <ul>
+                    <li>Phone number: +55 81 98661-2645</li>
+                    <li>Email: jpaulocts@gmail.com</li>
+                    <li>Address 1: Calle 2 Nte 100, Centro, 77600 Cozumel</li>
+                    <li>Address 2:Terminal Puerta Maya </li>
+                </ul>
+                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=130Ykl_zUWuJuVZ5b4ii-uiY-BFlX5Yk&ehbc=2E312F" width="400" height="300"></iframe>
+            </div>
+            
         </section>
-        <section class="table">
-            <table border="1">
-                <caption>Rental Prices Summary</caption>
-                <tr>
-                  <th>Rental</th>
-                  <th>Persons</th>
-                  <th>Reservation 3,5h</th>
-                  <th>Reservation Full Day</th>
-                  <th>Walk-In 3,5h</th>
-                  <th>Walk-In Full Day</th>
-                </tr>
-                <tr>
-                  <td>Honda Metro Scooter</td>
-                  <td>1</td>
-                  <td>$20</td>
-                  <td>$30</td>
-                  <td>$25</td>
-                  <td>$35</td>
-                </tr>
-                <tr>
-                  <td>Honda Dio Scooter</td>
-                  <td>2</td>
-                  <td>$30</td>
-                  <td>$40</td>
-                  <td>$35</td>
-                  <td>$45</td>
-                </tr>
-                <tr>
-                  <td>Honda PCX150 Scooter</td>
-                  <td>2</td>
-                  <td>$40</td>
-                  <td>$50</td>
-                  <td>$45</td>
-                  <td>$55</td>
-                </tr>
-                <tr>
-                  <td>Honda Pioneer ATV</td>
-                  <td>4</td>
-                  <td>$50</td>
-                  <td>$70</td>
-                  <td>$60</td>
-                  <td>$80</td>
-                </tr>
-                <tr>
-                  <td>Jeep Wrangler – 4 door with a/c</td>
-                  <td>5</td>
-                  <td>$70</td>
-                  <td>$100</td>
-                  <td>$85</td>
-                  <td>$125</td>
-                </tr>
-                <tr>
-                  <td>Jeep Wrangler – 2 door</td>
-                  <td>4</td>
-                  <td>$60</td>
-                  <td>$85</td>
-                  <td>$70</td>
-                  <td>$90</td>
-                </tr>
-              </table>
-        </section>    
+         
     </main>
     <footer>
         <div class="address">
@@ -133,7 +96,9 @@
         </div>
     </footer>
     <script src="scripts/menu.js"></script>
+    <script src="scripts/slide.js"></script>
     <script src="scripts/date.js"></script>
-    <script src="scripts/cars.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/banner.js"></script>
 </body>
 </html>

@@ -608,6 +608,7 @@ form textarea {
     border: 1px solid rgb(105, 102, 102);
     border-radius: 10px;
     width: 100%;
+    ;
 }
 
 .benefit ul {
@@ -631,4 +632,30 @@ form textarea {
     justify-self: center;
     font-size: 100%;
    
+}
+
+
+.thank {
+    
+    font-size: 1.5em;
+    padding: 2rem;
+    margin-bottom: 25%;
+}
+
+.thank1 {
+
+    font-size: 1.5em;
+    justify-self: flex-start;
+    margin: 1rem;
+}
+
+.reference {
+
+    text-decoration: none;
+    color: var(--accent-color-2);
+    font-weight: bold;
+    font-family: var(--accent-font);
+    font-size: 100%;
+    display: block;
+    padding: .5rem;
 }

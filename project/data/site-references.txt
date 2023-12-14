@@ -6,4 +6,6 @@ hondfa piooneer : https://www.phillycycle.com/New-Inventory-2023-Honda-Pioneer-1
 honda dio : https://freebikereviews.wordpress.com/2012/05/26/honda-dio-dlx/
 honda pcx : https://carmakmotors.com.br/detalhes/8949841/0/honda-pcx-20182018-cinza-r-1650000
 honda metropolitan : https://en.wikipedia.org/wiki/Honda_CHF50
-[20.5083, -86.9458]
+Hero: image https://thecancunsun.com/wp-content/uploads/2023/12/Tourist-Area-By-the-Water-in-Cozumel-Mexico.jpg.webp
+Fonts : https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@300&family=Open+Sans:wght@300&family=Roboto:wght@500&display=swap
+Weather : https://api.openweathermap.org/data/2.5/forecast?lat=20.51&lon=-86.95&appid=4a9225f2b0079d091f17256c97f18123&units=imperial
