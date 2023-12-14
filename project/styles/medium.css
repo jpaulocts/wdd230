@@ -60,6 +60,54 @@
         margin: 2rem;
     }
 
-  
+    .rental {
 
+        display: grid;
+        
+
+        
+    } 
+    
+    head-nohome {
+
+        justify-self: center;
+        font-size: 100%;
+       
+    }
+
+    .form-container {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row: auto;
+    }
+
+    form {
+
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .benefit {
+
+        grid-column: 2/3;
+        margin-top: .5rem;
+
+    }
+
+    .head-nohome {
+
+       
+        font-size: 2em;
+       
+    }
+
+    .benefit li {
+
+        padding: 1em;
+        font-weight: bold;
+        
+
+    }
+        
 }

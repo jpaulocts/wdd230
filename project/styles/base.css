@@ -389,6 +389,7 @@ section {
     margin: 1rem;
     display: grid;
     grid-template-rows: auto auto;
+    border-radius: 10px;
 
 }
 
@@ -432,4 +433,202 @@ section {
     top: 0;
     right: 5px;
     cursor: pointer;
+}
+
+.rental {
+
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.rental section {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    margin : 1rem;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: gainsboro;
+    text-align: center;
+}
+
+.rental section p {
+    font-weight: bold;
+    padding: .5rem;
+}
+
+.table {
+
+    margin-bottom: 1rem;
+}
+
+table 
+{
+    margin: 10px auto;
+    border: thin solid black;
+    box-shadow: 0 0 10px gray;
+    border-collapse: collapse;
+    
+}
+
+caption 
+{
+    padding: 2px;
+    color: black;
+    font-size: 1.5rem;
+}
+
+
+th:first-child , th:nth-child(1)
+{
+    background: rgb(105, 102, 102);
+    color: white;
+    
+
+}
+
+th
+{
+    background: rgb(105, 102, 102);
+    color: white;
+    
+}
+
+
+th, td {
+    padding: 7px 15px;
+    border: 1px solid gray;
+}
+
+td
+{
+    text-align: center;
+}
+
+tbody tr:nth-child(even) 
+{
+    background-color:var(--secondary-color) ;
+    color: white;
+}
+
+.form-container{
+
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    
+        
+}
+
+form{
+
+    display: grid;
+    margin: .5rem;
+    grid-row: 2/3;
+ }
+
+ form fieldset {
+
+    margin : -.5rem 1rem 1rem;
+    border: 1px solid rgb(105, 102, 102);
+    border-radius: 10px;
+    padding: .5rem 2%;
+    
+ }
+
+ form legend {
+    
+    margin: 0 1rem;
+    padding: 0;
+}
+ 
+form label {
+    display: block;
+    padding: .1rem;
+    margin: .5rem;
+    font-weight: bold;
+}
+
+form input {
+    display:block;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: .5rem;
+    width: 100%;
+}
+
+form div {
+
+    display: block;
+    margin-left: .7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+
+
+
+form label input:required{
+    border-left: red solid 6px;
+}
+
+form label input:required:valid {
+    border-left: green solid 6px;
+}
+
+
+.join-button {
+
+    width: 25%;
+    height: 100%;
+    justify-self: center;
+    background: rgb(0, 255, 34) ;
+    color: black;
+    font-weight: bold;
+}
+
+.join-button:hover{
+
+    background:yellow;
+    color: blue;
+}
+
+form textarea {
+    width: 100%;
+}
+
+.benefit {
+
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    border: 1px solid rgb(105, 102, 102);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.benefit ul {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.benefit li {
+
+    display: flex;
+    justify-content: flex-start;
+    margin: .5rem 0 .5rem .5rem;
+    list-style-type: circle;
+    
+
+}
+
+.head-nohome {
+
+    justify-self: center;
+    font-size: 100%;
+   
 }

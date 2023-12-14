@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Scooter ans transportations rentals in Cozumel"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://yourfriendthenomad.com/wp-content/uploads/2023/03/Cozumel-Mexico-2-1024x732.jpg"/>
+    <meta property="og:url" content="https://jpaulocts.github.io/wdd230/project"/>
+    <title>Scootopia - Cozumel</title>
+    <meta name="author" content="Paulo Cauás">
+    <meta name="description" content="A website designed for easing the transportation in Cozumel by offering scooters, jeeps and side-by-side ATVs rentals.">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.webp" alt="logo image" loading="lazy">
+            <div>Scootopia</div>
+            <div>Rentals</div>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                    <a href="rentals.html">Rentals</a>
+                    <a href="reservations.html" class="active">Reservations</a>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <a id="menu" href="#"></a>
+    </header>
+    <main>
+        <h1 class="head-nohome">BOOKING NOW AND ENJOY OUR VEHICLES</h1>
+        <section class="form-container">
+            <form method="get" action="thankyou.html">
+               <fieldset>
+                    <legend>Reservation</legend>
+                    <label for="firstname">First Name <input type="text" id="firstname" required></label>
+                    <label for="lastname">Last Name <input type="text" id="lastname" required></label>
+                    <label for="title">Cruise Line (if applicable) <input type="text" id="title"></label>
+                    <label for="email">Email <input type="email" id="email" placeholder="example@email.com"></label>
+                    <label for="phone">Phone number <input type="tel" name="phone" id="phone" required></label>
+                    <label for="business">Country<input type="text" name="business" id="business" required></label>
+                    <div>Rental Type</div>
+                    <label for="cars">Choose a vehicle: <select name="cars" id="cars">
+                        <option value="metropolitan">Honda Metro Scooter</option>
+                        <option value="dio">Honda Dio Scooter</option>
+                        <option value="pcx">Honda PCX150 Scooter</option>
+                        <option value="pioneer">Honda Pioneer ATV</option>
+                        <option value="wrangler4">Jeep Wrangler - 4 door</option>
+                        <option value="wrangler2">Jeep Wrangler - 2 door</option>
+                    </select> </label>
+                    <label for="description"><textarea name="description" id="description" cols="33" rows="10" placeholder="Describe if you neeed some special accomodations or others issues as drop-off request"></textarea></label>
+               </fieldset>
+               <input type="hidden" name="timeStampID" id="timeStamp"/>
+               <input type="submit" value="BOOK NOW" class="join-button">
+            </form>
+            <div class="benefit">
+                <h2>Rental Services and Agreements</h2>
+                <ul>
+                    <li>A $50 security deposit is required to confirm reservations.</li>
+                    <li>A valid drivers license is required in hand at the time of rental.</li>
+                    <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
+                    <li>Fuel charge is not included.</li>
+                    <li>Unlimited mileage.</li>
+                    <li>Liability insurance is included.</li>
+                    <li>Damage insurance is available for purchase.</li>
+                    <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+                    <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</li>
+                    <li>Rentals may be returned to either physical location.</li>
+                </ul>
+            </div>
+        </section> 
+    </main>
+    <footer>
+        <div class="address">
+            <h4>Addresses</h4>
+            <p>Calle 2 Nte 100, Centro, 77600 Cozumel, Q.R., México</p>
+            <p>Terminal Puerta Maya</p>
+        </div>
+        <div class="phone">
+            <h4>Phone</h4>
+            <p>+55 81 98661-2645</p>
+        </div>
+        <div class="footer-logo">
+            <img src="images/logo.webp" alt="logo">
+        </div>
+        <div class="email">
+            <h4>Email</h4>
+            <p>jpaulocts@gmail.com</p>
+        </div>
+        <div class="connect">
+            <h4>Connect</h4>
+            <div class="social-media">
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.webp" alt="facebook"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.webp" alt="instagram"></a>
+                <a href="https://web.whatsapp.com" target="_blank"><img src="images/whatsapp.webp" alt="whatsapp"></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; <span id="year"></span> | José Paulo Cauás Tenório | Web Development 230 Project</p>
+            <p>Date: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/slide.js"></script>
+    <script src="scripts/date.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/banner.js"></script>
+</body>
+</html>

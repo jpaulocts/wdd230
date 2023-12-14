@@ -33,7 +33,7 @@ const displayData = (cars) => {
        
 
        paragraph1.textContent = car.rental;
-       paragraph2.textContent = `Persons Capacity ${car.persons}`;
+       paragraph2.textContent = `Persons Capacity: ${car.persons}`;
        paragraph3.textContent = `Reservation Half Day (3h): ${car.reservation_3_5}`;
        paragraph4.textContent = `Reservation Full Day: ${car.reservation_full_day}`
        paragraph5.textContent = `Walk-in Half Day (3h): ${car.walkin_3_5}`
